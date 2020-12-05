@@ -4,8 +4,8 @@ import Header from "../components/header"
 export default function About() {
     return (
         <div style={{ color: 'purple' }}>
-            <Header />
-            <h1>About Keith</h1>
+            <Header headerText="About Keith"/>
+            <Header headerText="Testing"/>
             <p>Artist turned software developer.</p>
         </div>
     );
