@@ -3,15 +3,22 @@ import { Link } from "gatsby"
 import Header from "../components/header"
 import Layout from "../components/layout"
 
+
 export default function Home() {
   return (
-    <div style={{ color: 'blue' }}>
-      <Link to="contact/">Contact</Link>
-      <Link to="portfolio/">Portfolio</Link>
-      <Link to="about/">About</Link>
-      <Header headerText="Keith Nimmo" />
-      <p>Testing stuff</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
+    <div>
+      <div className="header">
+        <Header headerText="Keith Nimmo" />
+      </div>
+      <div className="contact-link">
+        <Link to="contact/">Contact</Link>
+      </div>
+      <div classname="portfolio-link">
+        <Link to="portfolio/">Portfolio</Link>
+      </div>
+      <div className="about-link">
+        <Link to="about/">About</Link>
+      </div>
     </div>
   );
 }
