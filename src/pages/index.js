@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Header from "../components/header"
 import Layout from "../components/layout"
 
 
@@ -8,16 +7,25 @@ export default function Home() {
   return (
     <div>
       <div className="header">
-        <Header headerText="Keith Nimmo" />
+        <h1>Keith Nimmo</h1>
       </div>
-      <div className="contact-link">
-        <Link to="contact/">Contact</Link>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div>
+        <Link className="about-link" to="about/">About</Link>
       </div>
-      <div classname="portfolio-link">
-        <Link to="portfolio/">Portfolio</Link>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div>
+        <Link className="portfolio-link" to="portfolio/">Portfolio</Link>
       </div>
-      <div className="about-link">
-        <Link to="about/">About</Link>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div>
+        <Link className="contact-link" to="contact/">Contact</Link>
       </div>
     </div>
   );
