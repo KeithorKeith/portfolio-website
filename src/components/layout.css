@@ -5,9 +5,14 @@
 
 .contact-link {
     background: #22577a;
+    text-decoration: none;
     text-align: center;
     border-radius: 25px;
     padding: 20px;
+}
+
+.contact-link:hover {
+    background: #38a3a5;
 }
 
 .portfolio-link {
@@ -22,8 +27,8 @@
     text-align: center;
     border-radius: 25px;
     padding: 20px;
+    margin-bottom: 100px;
 }
-
 
 .headers {
     padding: 60px;
