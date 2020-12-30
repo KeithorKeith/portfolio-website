@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
  max-width: 1080px;
  margin-left: auto;
@@ -24,6 +28,10 @@
     text-decoration: none;
 }
 
+.keith-nimmo:hover {
+    color: rgb(179, 12, 12);
+}
+
 .nav-right {
     display: flex;
     justify-content: flex-end;
@@ -32,6 +40,9 @@
 
 .list-item {
     list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .header :hover {
@@ -46,5 +57,36 @@
 
 .transition-link:hover {
     color: rgb(179, 12, 12);
+}
+
+.intro {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+img {
+    display: block;
+    width: 25%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-text {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.about-text:hover {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
