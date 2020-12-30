@@ -1,26 +1,29 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import { Button } from "react-bootstrap"
 
 
 export default function Home() {
   return (
     <div>
       <div className="header">
-        <h1 className="text-danger">Keith Nimmo</h1>
-      </div>
-      <br></br>
-      <blockquote>Hey this is a test to see if mother fricking
-      stuff be working k</blockquote>
-      <div className="blockquote-footer">yo</div>
-      <div className="about-link">
-        <Link className="about-link" to="about/">About</Link>
-      </div>
-      <div>
-        <Link className="portfolio-link" to="portfolio/">Portfolio</Link>
-      </div>
-      <div>
-        <Link className="contact-link" to="contact/">Contact</Link>
+        <nav class="nav-container">
+          <a class="named-transition" href="/">
+            <span class="keith-nimmo">Keith Nimmo</span>
+          </a>
+          <ul class="nav-right">
+            <li class="list-item">
+              <a class="transition-link" href="/about">About</a>
+            </li>
+            <li class="list-item">
+              <a class="transition-link" href="/about">Projects</a>
+            </li>
+            <li class="list-item">
+              <a class="transition-link" href="/about">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   );
