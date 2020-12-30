@@ -76,16 +76,24 @@ img {
     margin-left: auto;
 }
 
+.about-container {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10%;
+    background-color: rgba(0, 160, 152, 0.827);
+}
+
 .about-text {
-    text-align: center;
-    color: black;
+    text-align: left;
+    color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
 .about-text:hover {
-    text-align: center;
-    color: black;
+    text-align: left;
+    color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
