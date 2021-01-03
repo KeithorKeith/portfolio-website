@@ -39,11 +39,17 @@ export default function Home() {
             </h3>
           </a>
         </div>
-        <div>
-          <a class="projects-text" id="projects">
+        <div class="projects-container">
+          <a class="about-text" id="projects">
             <h2>My Recent Work</h2>
+          <div class="spicify-container">
             <h3>Spicify</h3>
-            <img src="spicify-images/emotion-slider.png"></img>
+            <a href="#contact">
+            <img src="spicify-images/spice_home.png"></img>
+            <img src="spicify-images/emotion_slider.png"></img>
+            <img src="spicify-images/playlist.png"></img>
+            </a>
+          </div>
           </a>
         </div>
         <div>
