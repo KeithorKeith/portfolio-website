@@ -76,6 +76,16 @@ img {
     margin-left: auto;
 }
 
+.profile-pic {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .about-container {
     border-radius: 25px;
     margin-top: 50px;
@@ -100,6 +110,30 @@ img {
     background-color: rgb(146, 55, 51);
 }
 
+.combat-container {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10%;
+    background-color: rgb(146, 55, 51);
+}
+
+.klaus-container {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10%;
+    background-color: rgb(51, 146, 146);
+}
+
+.contact-container {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10%;
+    background-color: rgb(106, 228, 228);
+}
+
 .about-text {
     text-align: left;
     color: rgb(0, 0, 0);
@@ -108,6 +142,20 @@ img {
 }
 
 .about-text:hover {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.contact-text {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.contact-text:hover {
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
