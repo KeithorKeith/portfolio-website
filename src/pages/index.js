@@ -29,8 +29,9 @@ export default function Home() {
           </h1>
             <img class="profile-pic" src="images/my_dumb_face.jpg"></img>
         </div>
+        <div id="about"></div>
         <div class="about-container">
-          <a class="about-text" id="about">
+          <a class="about-text" >
             <h2>A little about me</h2>
             <h3>
               I am a Masters graduate from Abertay University specialising in 3D Environment Art, 
@@ -39,8 +40,9 @@ export default function Home() {
             </h3>
           </a>
         </div>
+        <div id="projects"></div>
         <div class="projects-container">
-          <a class="about-text" id="projects">
+          <a class="about-text">
             <h2>My Recent Work</h2>
           <div class="spicify-container">
             <h3>Spicify</h3>
@@ -71,10 +73,17 @@ export default function Home() {
           </div>
           </a>
         </div>
+        <div  id="contact"></div>
         <div class="contact-container">
-          <a class="contact-text" id="contact">
+          <a class="contact-text">
             <h2>Contact details:</h2>
             <a href="mailto: keithnimmo@hotmail.co.uk" target="_blank" rel="noopener noreferrer">keithnimmo@hotmail.co.uk</a>
+            <a href="https://github.com/KeithorKeith" target="_blank">
+              <img class="icons" src="icons/github-icon.png"></img>
+            </a>
+            <a href="https://linkedin.com/in/keith-nimmo" target="_blank">
+              <img class="icons" src="icons/linkdin-icon.png"></img>
+            </a>
           </a>
         </div>
       </div>

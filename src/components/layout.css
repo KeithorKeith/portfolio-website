@@ -11,9 +11,15 @@ html {
 .nav-container {
     padding-top: 2%;
     padding-bottom: 2%;
+    padding-right: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.911) 100%);
 }
 
 .keith-nimmo {
@@ -64,6 +70,7 @@ html {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 50px;
+    padding-top: 50px;
 }
 
 img {
@@ -132,6 +139,16 @@ img {
     margin-bottom: 50px;
     padding: 10%;
     background-color: rgb(106, 228, 228);
+}
+
+.icons {
+    display: inline;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .about-text {
