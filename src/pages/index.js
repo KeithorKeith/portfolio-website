@@ -71,6 +71,12 @@ export default function Home() {
             </h4>
             <iframe src="https://itch.io/embed/864680" height="167" width="552" frameborder="0"><a href="https://keithorkeith.itch.io/klaus" target="_blank">Klaus by keithorkeith</a></iframe>
           </div>
+          <div class="Kaiju-container">
+            <h3>Kaiju Control</h3>
+            <h4>A game made over the course of a week for the GJL Game Parade Spring 2021.
+            </h4>
+            <iframe src="https://itch.io/embed/939487" height="167" width="552" frameborder="0"><a href="https://keithorkeith.itch.io/kaiju-control">Kaiju Control by keithorkeith</a></iframe>
+          </div>
           </a>
         </div>
         <div  id="contact"></div>

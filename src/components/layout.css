@@ -137,6 +137,14 @@ img {
     background-color: rgb(51, 146, 146);
 }
 
+.Kaiju-container {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10%;
+    background-color: rgb(51, 146, 67);
+}
+
 .contact-container {
     border-radius: 25px;
     margin-top: 50px;
