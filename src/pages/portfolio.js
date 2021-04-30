@@ -13,7 +13,7 @@ export default function Portfolio() {
           </a>
           <ul class="nav-right">
             <li class="list-item">
-              <a class="transition-link" href="#about">About</a>
+              <a class="transition-link" href="/index">About</a>
             </li>
             <li class="list-item">
               <a class="transition-link" href="#projects">Projects</a>

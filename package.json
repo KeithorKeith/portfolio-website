@@ -17,6 +17,7 @@
     "@popperjs/core": "^2.5.4",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-gdpr-cookies": "^2.0.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
