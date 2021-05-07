@@ -9,7 +9,7 @@ export default function Portfolio() {
     <div className="header">
         <nav class="nav-container">
           <a class="named-transition" href="/">
-            <span class="keith-nimmo">KN</span>
+            <span class="keith-nimmo">Keith Nimmo</span>
           </a>
           <ul class="nav-right">
             <li class="list-item">
