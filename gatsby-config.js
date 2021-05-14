@@ -5,7 +5,8 @@
  */
 
 module.exports = {
-  plugins: [      
+  plugins: [
+      {resolve:`gatsby-plugin-react-helmet`},      
       {
           resolve: `gatsby-plugin-google-fonts`,
           options: {
@@ -35,6 +36,6 @@ module.exports = {
           // defines the environments where the tracking should be available  - default is ["production"]
           environments: ['production', 'development']
         },
-      },
+      }
   ]
 }

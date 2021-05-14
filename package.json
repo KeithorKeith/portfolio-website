@@ -19,11 +19,13 @@
     "gatsby": "^2.26.1",
     "gatsby-plugin-gdpr-cookies": "^2.0.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-react-helmet": "^4.5.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.4.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "prettier": "2.1.2"

@@ -9,7 +9,7 @@ export default function Home() {
       <div className="header">
         <nav class="nav-container">
           <a class="named-transition" href="/">
-            <span class="keith-nimmo">Keith Nimmo</span>
+            <h1 class="keith-nimmo">Keith Nimmo</h1>
           </a>
           <ul class="nav-right">
             <li class="list-item">
